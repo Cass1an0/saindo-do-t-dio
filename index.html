@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca de algo divertido</title>
+</head>
+<body>
+    
+    <main>
+        <div class="passo ativo" id="passo-0">
+           <img src="cenario inicial.png" alt="">
+            <p>Você está em casa num final de semana, entediado, e decide que vai fazer algo, porém está indeciso com o que vai fazer.</p>
+            <button class="btn-proximo" data-proximo="1">Shopping</button>
+            <button class="btn-proximo" data-proximo="2">Praticar esporte</button>
+        </div>
+
+        
+        <div class="passo" id="passo-1">
+            <p>Você decidiu ir ao shopping e se depara com os bolsos quase vazios, o que você irá fazer?</p>
+            <button class="btn-proximo" data-proximo="3">Ir ao cinema</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na região onde você mora há poucas opções de esportes para praticar, você se depara com alguns deles.</p>
+            <button class="btn-proximo" data-proximo="5">Jogar vôlei</button>
+            <button class="btn-proximo" data-proximo="6">Jogar futebol</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No cinema, você escolhe o filme que havia lançado recentemente “Avatar: O Caminho da Água”.</p>
+            <button class="btn-proximo" data-proximo="7">Seguindo para o cinema.</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide voltar embora e continuar entediado em casa.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Vocẽ foi jogar vôlei, fez vários pontos, se divertiu com amigos e conhecidos.</p>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>No futebol, seu time te escala para cobrar um penâlti, em qual lado você irá chutar?</p>
+            <button class="btn-proximo" data-proximo="8">direita</button>
+            <button class="btn-proximo" data-proximo="9">esquerda</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você assistiu o filme, se divertiu e voltou feliz para casa.</p>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você errou o gol e seu time acabou perdendo o jogo, vocẽ voltou triste para casa.</p>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você acertou o gol, seu time ganhou e você voltou feliz para casa.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
